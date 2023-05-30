@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Adidas.com</h1>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="C:\Users\dell\Desktop\Sprint 2\Images\product1.jpg" alt="T Shirt">
+            <p>Price: $10</p>
+            <button class="add-to-cart" onclick="addToCart('T Shirt', 10)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\dell\Desktop\Sprint 2\Images\product2.jpg" alt="EarBuds">
+            <p>Price: $20</p>
+            <button class="add-to-cart" onclick="addToCart('Earbuds', 20)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="C:\Users\dell\Desktop\Sprint 2\Images\product6.jpg" alt="Cap">
+            <p>Price: $30</p>
+            <button class="add-to-cart" onclick="addToCart('Cap', 30)">Add to Cart</button>
+        </div>
+    </section>
+
+    <aside class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="total-price">$0</span></p>
+        <button class="Checkout">Checkout</button>
+    </aside>
+
+    <script src="script.js"></script>
+
+    <footer>© 1996-2023, Adidas.com, Inc.</footer>
+</body>
+
+</html>
